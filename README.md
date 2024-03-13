@@ -1,0 +1,2 @@
+# Text-Based Adventure Game 
+The game is implemented using **formal languages and automata theory**.Its a **FSM** (finite-state machine) that can change from one state to another on response to input.The goal of the game is to discover the secret exit, navigating through a map,formed of different rooms that contain unique challenges and rewards.The states of the automatons are represented by the rooms of the map and the final state is the secret exit.Commands are checked for correctness by constructing a **CFG**.
