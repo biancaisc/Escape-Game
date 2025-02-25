@@ -8,7 +8,7 @@ The game is implemented using **formal languages and automata theory**. It's an 
 ## Initial Configuration
 In the initial setup, the following items are located in the corresponding rooms:
 
-![image](https://github.com/user-attachments/assets/01b7f2af-d6a8-4d3f-9be0-7cedf0711a5e)
+![image](https://github.com/user-attachments/assets/256fece9-11a0-4eff-8a60-9958e769070f)
 
 Each room requires a specific item to enter. For example, to
 enter the Armoury from the Entrance Hall, the player needs the ’key’. These
