@@ -18,6 +18,7 @@ In the initial setup, the following items are located in the corresponding rooms
 
 ![image](https://github.com/user-attachments/assets/256fece9-11a0-4eff-8a60-9958e769070f)
 
-Each room requires a specific item to enter. For example, to
-enter the Armoury from the Entrance Hall, the player needs the ’key’. These
+## Goal
+- The objective is to find the secret exit that leads to the outside world. However, navigating through the castle requires specific items to access certain rooms.
+- For example, to enter the Armoury from the Entrance Hall, the player needs the ’key’. These
 conditions create a logical progression and challenge in the game.
