@@ -5,12 +5,12 @@ The game is implemented using **formal languages and automata theory**. It's an 
 ![image](https://github.com/user-attachments/assets/74ff0e74-adf8-4b7c-8514-972acc774794)
 
 ## Game commands
-• go [room name]: Moves the player to the specified room if it is adjacent
+- go [room name]: Moves the player to the specified room if it is adjacent
 and the necessary conditions (e.g. having a certain item) are met.
-• look: Provides a description of the current room and the adjacent rooms.
-• inventory: Shows the items currently in the player’s possession.
-• take [item]: Allows the player to pick up an item found in a room.
-• drop [item]: Allows the player to drop an item from their inventory into
+- look: Provides a description of the current room and the adjacent rooms.
+- inventory: Shows the items currently in the player’s possession.
+- take [item]: Allows the player to pick up an item found in a room.
+- drop [item]: Allows the player to drop an item from their inventory into
 the current room.
 
 ## Initial Configuration
