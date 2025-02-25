@@ -6,8 +6,8 @@
 
 # Urmatoarele functii pana la linia 80 sunt cele de la subiectul 2 si verifica ca fisierul de input_joc dat sa fie corect
 
-# Se verifica ca fisierul "input_CFG.in" sa fie valid prin functia verificare_fisier_CFG()
-# Vom verifica ca comenzile primite in "comenzi.in" sa fie validate de catre CFG, adica sa nu existe o comanda de forma "go invitation" sau "take kitchen" sau "look diningRoom"
+# Se verifica fisierul "input_CFG.in" sa fie valid prin functia verificare_fisier_CFG()
+# Vom verifica comenzile primite in "comenzi.in", ca sa fie validate de catre CFG, adica sa nu existe o comanda de forma "go invitation" sau "take kitchen" sau "look diningRoom"
 
 
 def citire_date(fisier):
@@ -16,7 +16,7 @@ def citire_date(fisier):
     ok=0
     while(linie):
         linie=linie.strip()
-        if linie in ["alfabet input:", "alfabet lista:", "stari LA:", "tranzitii:"]: # verificam la ce linie am ajuns pentru a sti in ce cheie a dictionarului bagam urmatoarele linii citite
+        if linie in ["alfabet input:", "alfabet lista:", "stari LA:", "tranzitii:"]: # verificam la ce linie am ajuns pentru a sti in ce cheie a dictionarului adaugam urmatoarele linii citite
             x = linie[:len(linie)-1] #scoatem semnul : de la fiecare cheie a dictionarului si memoram cheia dictionarului la care ne aflam
         elif "#" not in linie: # daca totusi linia nu este nici un subtitlu si nici un #, atunci inseamna ca adaugam liniile citite in d[x]
 
@@ -108,7 +108,7 @@ def parcurgere_lista_comenzi(listaComenzi):
                     break
             if(tranzitie_gasita == 0): # daca am terminat de parcurs toate tranzitiile si nu am gasit niciuna potrivita, returnam 0
                 return 0
-    if(camera_curenta in d["stari finale"]): # pana acum au fost gsite toate tranzitiile. daca starea curenta face parte din starile finale, string-ul este acceptat
+    if(camera_curenta in d["stari finale"]): # pana acum au fost gasite toate tranzitiile. daca starea curenta face parte din starile finale, string-ul este acceptat
         return 1
     return 0
 
